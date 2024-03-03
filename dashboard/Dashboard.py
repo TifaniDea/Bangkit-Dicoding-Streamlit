@@ -57,7 +57,7 @@ def create_rfm2_df(df):
     return rfm2_df
 
 # Load cleaned data
-merged_df = pd.read_csv("data/merged_df.csv")
+merged_df = pd.read_csv("dashboard/merged_df.csv")
 
 datetime_columns = ["dteday"]
 for column in datetime_columns:
